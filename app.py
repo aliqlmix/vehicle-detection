@@ -7,7 +7,7 @@ import tempfile
 
 # --- Config ---
 MODEL1_PATH = 'yolov8n.pt'
-MODEL2_PATH = r"D:\Uni\Project\Vehicle-Detection\runs\detect\vehicle_detector\weights\best.pt"
+MODEL2_PATH = r"runs\detect\vehicle_detector\weights\best.pt"
 COCO_CLASSES = [1, 2, 3, 5]
 DEFAULT_CONF = 0.4
 LABEL_MAP = {'bus': 'heavy_truck', 'motorcycle': 'two_wheeled_vehicle', 'bicycle': 'two_wheeled_vehicle'}
